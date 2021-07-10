@@ -9,11 +9,7 @@ const AddFriend = () => {
         email: '',
 }
 
-const [state, setState] = useState({
-        name: '',
-        age: '',
-        email: '',
-})
+
 
 const [formInput, setFormInput] = useState(initialValues)
     const handleChange = evt => {
@@ -39,7 +35,7 @@ axiosWithAuth()
     console.log(err)
 })
 
-// eslint-disable-next-line no-undef
+
 setValues(initialValues)
 }
 return (
