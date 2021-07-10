@@ -34,3 +34,23 @@ nav h1, a{
 .loginForm input, button{
   margin: 5px;
 }
+
+.friendsListContainer, .form-container{
+  background-color: whitesmoke;
+  margin: 10px;
+  border: solid 1px black;
+  padding: 20px;
+}
+
+
+form{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+input, button{
+  margin: 5px;
+}
